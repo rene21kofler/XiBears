@@ -4063,9 +4063,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"afc-xibears@workspace:.":
+"xibears@workspace:.":
   version: 0.0.0-use.local
-  resolution: "afc-xibears@workspace:."
+  resolution: "xibears@workspace:."
   dependencies:
     "@types/node": ^17.0.45
     "@types/react": ^18.0.15
