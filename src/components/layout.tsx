@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Link } from "gatsby"
+import { StaticImage } from 'gatsby-plugin-image'
 
 const Layout = ({ pageTitle, children }) => {
   return (
@@ -11,7 +12,7 @@ const Layout = ({ pageTitle, children }) => {
         <Link to="/secondPage">XiBears</Link>
         <Link to="/secondPage">Ligen</Link>
         <Link to="/secondPage">XiBowl</Link>
-        <Link to="/secondPage">Spieler</Link>
+        <Link to="/players">Spieler</Link>
         <Link to="/secondPage">Kontakt</Link>
       </nav>
       <div className="burger-menu text-right pr-5 md:hidden">
@@ -19,11 +20,16 @@ const Layout = ({ pageTitle, children }) => {
         <Link to="/secondPage">XiBears</Link>
         <Link to="/secondPage">Ligen</Link>
         <Link to="/secondPage">XiBowl</Link>
-        <Link to="/secondPage">Spieler</Link>
+        <Link to="/players">Spieler</Link>
         <Link to="/secondPage">Kontakt</Link>
         </div>
       <main>
         <h1>{pageTitle}</h1>
+        
+      <StaticImage
+        alt="XiBears"
+        src="../images/logo.png"
+      />
         {children}
       </main>
     </div>
