@@ -29,16 +29,11 @@ const config: GatsbyConfig = {
       },
     },
     {
-      resolve: `gatsby-source-instagram`,
+      resolve: `gatsby-source-instagram-all`,
       options: {
-        username: `xibears`, 
         access_token: process.env.INSTAGRAM_TOKEN, 
-        instagram_id: `16746351984`,
-        paginate: 100,
-        maxPosts: 1000,
-        hashtags: true
-      },
-    },
+      }
+    }
   ],
 }
 

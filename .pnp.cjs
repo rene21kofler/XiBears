@@ -42,7 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gatsby-plugin-sharp", "virtual:6e23a4dc768d545301b780d749f77be2a4581d5da9ad53b5a15b1ded2b361e981fff74c154491e0e61dc5008aedf21737a89b262620059e957889a412294328f#npm:4.19.0"],\
             ["gatsby-source-contentful", "virtual:6e23a4dc768d545301b780d749f77be2a4581d5da9ad53b5a15b1ded2b361e981fff74c154491e0e61dc5008aedf21737a89b262620059e957889a412294328f#npm:7.17.0"],\
             ["gatsby-source-filesystem", "virtual:6e23a4dc768d545301b780d749f77be2a4581d5da9ad53b5a15b1ded2b361e981fff74c154491e0e61dc5008aedf21737a89b262620059e957889a412294328f#npm:4.19.0"],\
-            ["gatsby-source-instagram", "virtual:6e23a4dc768d545301b780d749f77be2a4581d5da9ad53b5a15b1ded2b361e981fff74c154491e0e61dc5008aedf21737a89b262620059e957889a412294328f#npm:0.9.0"],\
+            ["gatsby-source-instagram-all", "virtual:6e23a4dc768d545301b780d749f77be2a4581d5da9ad53b5a15b1ded2b361e981fff74c154491e0e61dc5008aedf21737a89b262620059e957889a412294328f#npm:5.2.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:6e23a4dc768d545301b780d749f77be2a4581d5da9ad53b5a15b1ded2b361e981fff74c154491e0e61dc5008aedf21737a89b262620059e957889a412294328f#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
@@ -6871,14 +6871,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["axios", [\
-        ["npm:0.19.2", {\
-          "packageLocation": "./.yarn/cache/axios-npm-0.19.2-e4e8599895-dcace11a0a.zip/node_modules/axios/",\
-          "packageDependencies": [\
-            ["axios", "npm:0.19.2"],\
-            ["follow-redirects", "npm:1.5.10"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:0.21.4", {\
           "packageLocation": "./.yarn/cache/axios-npm-0.21.4-e278873748-44245f24ac.zip/node_modules/axios/",\
           "packageDependencies": [\
@@ -8761,13 +8753,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["npm:3.1.0", {\
-          "packageLocation": "./.yarn/cache/debug-npm-3.1.0-9f0accb99b-0b52718ab9.zip/node_modules/debug/",\
-          "packageDependencies": [\
-            ["debug", "npm:3.1.0"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
         ["npm:3.2.7", {\
           "packageLocation": "./.yarn/cache/debug-npm-3.2.7-754e818c7a-b3d8c59407.zip/node_modules/debug/",\
           "packageDependencies": [\
@@ -8802,20 +8787,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["debug", "virtual:1fc88eea444874c16c21b18c340f7d942721495489588b4660a54541f41334b5725af31b9e5d7f9317557c08eab5b2be076cb4f0efc445b9beac9a537435034e#npm:4.3.4"],\
             ["@types/supports-color", null],\
             ["ms", "npm:2.1.2"],\
-            ["supports-color", null]\
-          ],\
-          "packagePeers": [\
-            "@types/supports-color",\
-            "supports-color"\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["virtual:bde6f435769d1a96c3f371d2e8a88314847816fb841f758b3628da60329c36f988ca42f6984dc53bb31dd306522878e1e5d568caeca7af42e4f19b238d6261b3#npm:3.1.0", {\
-          "packageLocation": "./.yarn/__virtual__/debug-virtual-f2284580f9/0/cache/debug-npm-3.1.0-9f0accb99b-0b52718ab9.zip/node_modules/debug/",\
-          "packageDependencies": [\
-            ["debug", "virtual:bde6f435769d1a96c3f371d2e8a88314847816fb841f758b3628da60329c36f988ca42f6984dc53bb31dd306522878e1e5d568caeca7af42e4f19b238d6261b3#npm:3.1.0"],\
-            ["@types/supports-color", null],\
-            ["ms", "npm:2.0.0"],\
             ["supports-color", null]\
           ],\
           "packagePeers": [\
@@ -10706,14 +10677,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["npm:1.5.10", {\
-          "packageLocation": "./.yarn/cache/follow-redirects-npm-1.5.10-bde6f43576-0edc4b74e3.zip/node_modules/follow-redirects/",\
-          "packageDependencies": [\
-            ["follow-redirects", "npm:1.5.10"],\
-            ["debug", "virtual:bde6f435769d1a96c3f371d2e8a88314847816fb841f758b3628da60329c36f988ca42f6984dc53bb31dd306522878e1e5d568caeca7af42e4f19b238d6261b3#npm:3.1.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["virtual:e278873748b4e9d158db595d2f6cb0351c74052f52b53924aec4d9299e7b6babfb62aead374cf2f6e453bc8bea3b052380dc6b1137a162bbfc102bbb1c8cac42#npm:1.15.1", {\
           "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-cc93472f31/0/cache/follow-redirects-npm-1.15.1-6b191885cd-6aa4e3e3cd.zip/node_modules/follow-redirects/",\
           "packageDependencies": [\
@@ -11666,28 +11629,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["gatsby-source-instagram", [\
-        ["npm:0.9.0", {\
-          "packageLocation": "./.yarn/cache/gatsby-source-instagram-npm-0.9.0-d02977a02a-9c402ef124.zip/node_modules/gatsby-source-instagram/",\
+      ["gatsby-source-instagram-all", [\
+        ["npm:5.2.1", {\
+          "packageLocation": "./.yarn/cache/gatsby-source-instagram-all-npm-5.2.1-f5dd4516de-a73483fae5.zip/node_modules/gatsby-source-instagram-all/",\
           "packageDependencies": [\
-            ["gatsby-source-instagram", "npm:0.9.0"]\
+            ["gatsby-source-instagram-all", "npm:5.2.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:6e23a4dc768d545301b780d749f77be2a4581d5da9ad53b5a15b1ded2b361e981fff74c154491e0e61dc5008aedf21737a89b262620059e957889a412294328f#npm:0.9.0", {\
-          "packageLocation": "./.yarn/__virtual__/gatsby-source-instagram-virtual-44e772e954/0/cache/gatsby-source-instagram-npm-0.9.0-d02977a02a-9c402ef124.zip/node_modules/gatsby-source-instagram/",\
+        ["virtual:6e23a4dc768d545301b780d749f77be2a4581d5da9ad53b5a15b1ded2b361e981fff74c154491e0e61dc5008aedf21737a89b262620059e957889a412294328f#npm:5.2.1", {\
+          "packageLocation": "./.yarn/__virtual__/gatsby-source-instagram-all-virtual-fa04659701/0/cache/gatsby-source-instagram-all-npm-5.2.1-f5dd4516de-a73483fae5.zip/node_modules/gatsby-source-instagram-all/",\
           "packageDependencies": [\
-            ["gatsby-source-instagram", "virtual:6e23a4dc768d545301b780d749f77be2a4581d5da9ad53b5a15b1ded2b361e981fff74c154491e0e61dc5008aedf21737a89b262620059e957889a412294328f#npm:0.9.0"],\
+            ["gatsby-source-instagram-all", "virtual:6e23a4dc768d545301b780d749f77be2a4581d5da9ad53b5a15b1ded2b361e981fff74c154491e0e61dc5008aedf21737a89b262620059e957889a412294328f#npm:5.2.1"],\
             ["@types/gatsby", null],\
-            ["@types/gatsby-source-filesystem", null],\
-            ["axios", "npm:0.19.2"],\
             ["gatsby", "virtual:6e23a4dc768d545301b780d749f77be2a4581d5da9ad53b5a15b1ded2b361e981fff74c154491e0e61dc5008aedf21737a89b262620059e957889a412294328f#npm:4.19.2"],\
-            ["gatsby-source-filesystem", "virtual:6e23a4dc768d545301b780d749f77be2a4581d5da9ad53b5a15b1ded2b361e981fff74c154491e0e61dc5008aedf21737a89b262620059e957889a412294328f#npm:4.19.0"]\
+            ["gatsby-source-filesystem", "virtual:6e23a4dc768d545301b780d749f77be2a4581d5da9ad53b5a15b1ded2b361e981fff74c154491e0e61dc5008aedf21737a89b262620059e957889a412294328f#npm:4.19.0"],\
+            ["node-fetch", "virtual:b45afaf4964c68e9166f8b34800145da8d2ad3ae94b1e52dccff9cb2e5fd245c1d599c4a6698c53934017f74f46f6672aa4c2b342b39ff548304e68bcbdf31b0#npm:2.6.7"],\
+            ["query-string", "npm:7.1.1"]\
           ],\
           "packagePeers": [\
-            "@types/gatsby-source-filesystem",\
             "@types/gatsby",\
-            "gatsby-source-filesystem",\
             "gatsby"\
           ],\
           "linkType": "HARD"\
@@ -16830,6 +16791,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["strict-uri-encode", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:7.1.1", {\
+          "packageLocation": "./.yarn/cache/query-string-npm-7.1.1-55c6f31f52-b227d1f588.zip/node_modules/query-string/",\
+          "packageDependencies": [\
+            ["query-string", "npm:7.1.1"],\
+            ["decode-uri-component", "npm:0.2.0"],\
+            ["filter-obj", "npm:1.1.0"],\
+            ["split-on-first", "npm:1.1.0"],\
+            ["strict-uri-encode", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["querystring", [\
@@ -19858,7 +19830,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gatsby-plugin-sharp", "virtual:6e23a4dc768d545301b780d749f77be2a4581d5da9ad53b5a15b1ded2b361e981fff74c154491e0e61dc5008aedf21737a89b262620059e957889a412294328f#npm:4.19.0"],\
             ["gatsby-source-contentful", "virtual:6e23a4dc768d545301b780d749f77be2a4581d5da9ad53b5a15b1ded2b361e981fff74c154491e0e61dc5008aedf21737a89b262620059e957889a412294328f#npm:7.17.0"],\
             ["gatsby-source-filesystem", "virtual:6e23a4dc768d545301b780d749f77be2a4581d5da9ad53b5a15b1ded2b361e981fff74c154491e0e61dc5008aedf21737a89b262620059e957889a412294328f#npm:4.19.0"],\
-            ["gatsby-source-instagram", "virtual:6e23a4dc768d545301b780d749f77be2a4581d5da9ad53b5a15b1ded2b361e981fff74c154491e0e61dc5008aedf21737a89b262620059e957889a412294328f#npm:0.9.0"],\
+            ["gatsby-source-instagram-all", "virtual:6e23a4dc768d545301b780d749f77be2a4581d5da9ad53b5a15b1ded2b361e981fff74c154491e0e61dc5008aedf21737a89b262620059e957889a412294328f#npm:5.2.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:6e23a4dc768d545301b780d749f77be2a4581d5da9ad53b5a15b1ded2b361e981fff74c154491e0e61dc5008aedf21737a89b262620059e957889a412294328f#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\

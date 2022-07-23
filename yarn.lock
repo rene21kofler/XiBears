@@ -4480,15 +4480,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^0.19.0":
-  version: 0.19.2
-  resolution: "axios@npm:0.19.2"
-  dependencies:
-    follow-redirects: 1.5.10
-  checksum: dcace11a0a25fdf9b3b97fc9d011d23dd9c67cc13d91778080482ddddbbfe731f7410a090b11aa0bbbdf83686c5911ccb4289fd3683b7488c1b0c4d3c882380c
-  languageName: node
-  linkType: hard
-
 "axios@npm:^0.21.1":
   version: 0.21.4
   resolution: "axios@npm:0.21.4"
@@ -6042,15 +6033,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:=3.1.0":
-  version: 3.1.0
-  resolution: "debug@npm:3.1.0"
-  dependencies:
-    ms: 2.0.0
-  checksum: 0b52718ab957254a5b3ca07fc34543bc778f358620c206a08452251eb7fc193c3ea3505072acbf4350219c14e2d71ceb7bdaa0d3370aa630b50da790458d08b3
-  languageName: node
-  linkType: hard
-
 "debug@npm:^3.0.0, debug@npm:^3.0.1, debug@npm:^3.1.0, debug@npm:^3.2.6, debug@npm:^3.2.7":
   version: 3.2.7
   resolution: "debug@npm:3.2.7"
@@ -7573,15 +7555,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:1.5.10":
-  version: 1.5.10
-  resolution: "follow-redirects@npm:1.5.10"
-  dependencies:
-    debug: =3.1.0
-  checksum: 0edc4b74e37e7b88ee716188a8f2a790238877c1d954f00c7b78d560f3bef40061c130536d13bee8e47b4e8e71edf1175a2de2729e51ab8206e4646b2370e484
-  languageName: node
-  linkType: hard
-
 "follow-redirects@npm:^1.14.0":
   version: 1.15.1
   resolution: "follow-redirects@npm:1.15.1"
@@ -8116,7 +8089,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-source-filesystem@npm:^4.19.0":
+"gatsby-source-filesystem@npm:^4.0.0, gatsby-source-filesystem@npm:^4.19.0":
   version: 4.19.0
   resolution: "gatsby-source-filesystem@npm:4.19.0"
   dependencies:
@@ -8138,15 +8111,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-source-instagram@npm:^0.9.0":
-  version: 0.9.0
-  resolution: "gatsby-source-instagram@npm:0.9.0"
+"gatsby-source-instagram-all@npm:^5.2.1":
+  version: 5.2.1
+  resolution: "gatsby-source-instagram-all@npm:5.2.1"
   dependencies:
-    axios: ^0.19.0
+    gatsby-source-filesystem: ^4.0.0
+    node-fetch: ^2.6.5
+    query-string: ^7.0.1
   peerDependencies:
-    gatsby: ">2.0.0-alpha"
-    gatsby-source-filesystem: ^2.0.27
-  checksum: 9c402ef1243446d1520acc3260b3791de6bcee1f09300a375f8307508141aa41a7b891218ede02a8c6694a9aea212fd74e34e03653c2d96eecd9a138e389cbb7
+    gatsby: ^4.0.0
+  checksum: a73483fae5fbc2269577b8de20e00a480c0bfb6e63b683584cfe42052a6af182485d0077f98d8954ae156a7044e08038da8e93c137f02bab7641502133b91d71
   languageName: node
   linkType: hard
 
@@ -10953,7 +10927,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-fetch@npm:2.6.7, node-fetch@npm:^2.6.1, node-fetch@npm:^2.6.6, node-fetch@npm:^2.6.7":
+"node-fetch@npm:2.6.7, node-fetch@npm:^2.6.1, node-fetch@npm:^2.6.5, node-fetch@npm:^2.6.6, node-fetch@npm:^2.6.7":
   version: 2.6.7
   resolution: "node-fetch@npm:2.6.7"
   dependencies:
@@ -12495,6 +12469,18 @@ __metadata:
     split-on-first: ^1.0.0
     strict-uri-encode: ^2.0.0
   checksum: f2c7347578fa0f3fd4eaace506470cb4e9dc52d409a7ddbd613f614b9a594d750877e193b5d5e843c7477b3b295b857ec328903c943957adc41a3efb6c929449
+  languageName: node
+  linkType: hard
+
+"query-string@npm:^7.0.1":
+  version: 7.1.1
+  resolution: "query-string@npm:7.1.1"
+  dependencies:
+    decode-uri-component: ^0.2.0
+    filter-obj: ^1.1.0
+    split-on-first: ^1.0.0
+    strict-uri-encode: ^2.0.0
+  checksum: b227d1f588ae93f9f0ad078c6b811295fa151dc5a160a03bb2bac5fa0e6919cb1daa570aad1d288e77c8e89fde5362ba505b1014e6e793da9b1e885b59a690a6
   languageName: node
   linkType: hard
 
@@ -15096,7 +15082,7 @@ __metadata:
     gatsby-plugin-sharp: ^4.19.0
     gatsby-source-contentful: ^7.17.0
     gatsby-source-filesystem: ^4.19.0
-    gatsby-source-instagram: ^0.9.0
+    gatsby-source-instagram-all: ^5.2.1
     react: ^18.1.0
     react-dom: ^18.1.0
     typescript: ^4.7.4
