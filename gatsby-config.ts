@@ -33,7 +33,8 @@ const config: GatsbyConfig = {
       options: {
         access_token: process.env.INSTAGRAM_TOKEN, 
       }
-    }
+    },
+    'gatsby-plugin-postcss',
   ],
 }
 
