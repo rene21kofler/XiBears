@@ -25,12 +25,12 @@ const Instagram = () => {
         }
       `}
       render={data => (
-        <div>
-          {data.allInstagramContent.edges.map((post, i) => ( 
-          <div>
-            <h2>{post.node.caption}</h2>
-            <img src={post.node.media_url}/>
-          </div>
+        <div className="flex ">
+          {data.allInstagramContent.edges.map((post, i) => (
+            <div className="rounded ">
+              {/* <h2>{post.node.caption}</h2> */}
+              <img className="w-40 h-40" src={post.node.media_url} />
+            </div>
           ))}
         </div>
       )}

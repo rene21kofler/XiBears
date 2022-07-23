@@ -7,11 +7,9 @@ import SocialBanner from "../components/socialBanner"
 // markup
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Home Page">
-      <title>XiBears</title>
-      <h1 className="text-3xl font-bold underline">XiBears</h1>
+    <Layout pageTitle="XiBears">
       <p>
-        content
+        Hey guys
       </p>
       <StaticImage
         alt="XiBears"
