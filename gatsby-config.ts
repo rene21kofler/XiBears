@@ -28,6 +28,17 @@ const config: GatsbyConfig = {
         path: `${__dirname}/src/`,
       },
     },
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        username: `xibears`, 
+        access_token: process.env.INSTAGRAM_TOKEN, 
+        instagram_id: `16746351984`,
+        paginate: 100,
+        maxPosts: 1000,
+        hashtags: true
+      },
+    },
   ],
 }
 

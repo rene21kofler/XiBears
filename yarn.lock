@@ -4063,25 +4063,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xibears@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "xibears@workspace:."
-  dependencies:
-    "@types/node": ^17.0.45
-    "@types/react": ^18.0.15
-    "@types/react-dom": ^18.0.6
-    dotenv: ^16.0.1
-    gatsby: ^4.19.2
-    gatsby-plugin-image: ^2.19.0
-    gatsby-plugin-sharp: ^4.19.0
-    gatsby-source-contentful: ^7.17.0
-    gatsby-source-filesystem: ^4.19.0
-    react: ^18.1.0
-    react-dom: ^18.1.0
-    typescript: ^4.7.4
-  languageName: unknown
-  linkType: soft
-
 "agent-base@npm:6, agent-base@npm:^6.0.2":
   version: 6.0.2
   resolution: "agent-base@npm:6.0.2"
@@ -4496,6 +4477,15 @@ __metadata:
   version: 4.4.3
   resolution: "axe-core@npm:4.4.3"
   checksum: c3ea000d9ace3ba0bc747c8feafc24b0de62a0f7d93021d0f77b19c73fca15341843510f6170da563d51535d6cfb7a46c5fc0ea36170549dbb44b170208450a2
+  languageName: node
+  linkType: hard
+
+"axios@npm:^0.19.0":
+  version: 0.19.2
+  resolution: "axios@npm:0.19.2"
+  dependencies:
+    follow-redirects: 1.5.10
+  checksum: dcace11a0a25fdf9b3b97fc9d011d23dd9c67cc13d91778080482ddddbbfe731f7410a090b11aa0bbbdf83686c5911ccb4289fd3683b7488c1b0c4d3c882380c
   languageName: node
   linkType: hard
 
@@ -6052,6 +6042,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"debug@npm:=3.1.0":
+  version: 3.1.0
+  resolution: "debug@npm:3.1.0"
+  dependencies:
+    ms: 2.0.0
+  checksum: 0b52718ab957254a5b3ca07fc34543bc778f358620c206a08452251eb7fc193c3ea3505072acbf4350219c14e2d71ceb7bdaa0d3370aa630b50da790458d08b3
+  languageName: node
+  linkType: hard
+
 "debug@npm:^3.0.0, debug@npm:^3.0.1, debug@npm:^3.1.0, debug@npm:^3.2.6, debug@npm:^3.2.7":
   version: 3.2.7
   resolution: "debug@npm:3.2.7"
@@ -7574,6 +7573,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"follow-redirects@npm:1.5.10":
+  version: 1.5.10
+  resolution: "follow-redirects@npm:1.5.10"
+  dependencies:
+    debug: =3.1.0
+  checksum: 0edc4b74e37e7b88ee716188a8f2a790238877c1d954f00c7b78d560f3bef40061c130536d13bee8e47b4e8e71edf1175a2de2729e51ab8206e4646b2370e484
+  languageName: node
+  linkType: hard
+
 "follow-redirects@npm:^1.14.0":
   version: 1.15.1
   resolution: "follow-redirects@npm:1.15.1"
@@ -8127,6 +8135,18 @@ __metadata:
   peerDependencies:
     gatsby: ^4.0.0-next
   checksum: b609e5ec45100f5df881faddf38aafdc78309cd6ef03236ed0440746a54afdeadb3e872f8e1bc3b47074ed0097f85e2156f5fd02213cca09fb9d1ffda3f7b7c7
+  languageName: node
+  linkType: hard
+
+"gatsby-source-instagram@npm:^0.9.0":
+  version: 0.9.0
+  resolution: "gatsby-source-instagram@npm:0.9.0"
+  dependencies:
+    axios: ^0.19.0
+  peerDependencies:
+    gatsby: ">2.0.0-alpha"
+    gatsby-source-filesystem: ^2.0.27
+  checksum: 9c402ef1243446d1520acc3260b3791de6bcee1f09300a375f8307508141aa41a7b891218ede02a8c6694a9aea212fd74e34e03653c2d96eecd9a138e389cbb7
   languageName: node
   linkType: hard
 
@@ -15062,6 +15082,26 @@ __metadata:
   checksum: a1db277e37737caf3ed363d2a33ce4b4ea5b5fc190b663a6f70bc252799185b840ccaa166eaeeea4841c9c60b87741f0a24e29cbcf6708dd425986d4df186d2f
   languageName: node
   linkType: hard
+
+"xibears@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "xibears@workspace:."
+  dependencies:
+    "@types/node": ^17.0.45
+    "@types/react": ^18.0.15
+    "@types/react-dom": ^18.0.6
+    dotenv: ^16.0.1
+    gatsby: ^4.19.2
+    gatsby-plugin-image: ^2.19.0
+    gatsby-plugin-sharp: ^4.19.0
+    gatsby-source-contentful: ^7.17.0
+    gatsby-source-filesystem: ^4.19.0
+    gatsby-source-instagram: ^0.9.0
+    react: ^18.1.0
+    react-dom: ^18.1.0
+    typescript: ^4.7.4
+  languageName: unknown
+  linkType: soft
 
 "xml-parse-from-string@npm:^1.0.0":
   version: 1.0.1
