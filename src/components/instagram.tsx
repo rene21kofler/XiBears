@@ -1,6 +1,5 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
-import InstagramPost from './instagramPost'
 
 const Instagram = () => {
   return (
