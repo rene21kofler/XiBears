@@ -51,13 +51,14 @@ const Layout = ({ pageTitle, children }) => {
           <Link className="pr-2" to="/secondPage">Kontakt</Link>
         </div>
         <main>
-          <h1>{pageTitle}</h1>
-
           <StaticImage
             className="w-40"
             alt="XiBears"
             src="../images/logo.png"
           />
+          
+          <h1>{pageTitle}</h1>
+
           {children}
         </main>
       </div>
