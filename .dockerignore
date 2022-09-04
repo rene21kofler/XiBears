@@ -1,0 +1,8 @@
+*.log
+.cache
+.DS_Store
+src/.temp
+src/gatsby-types.d.ts
+node_modules
+.cache/
+public
